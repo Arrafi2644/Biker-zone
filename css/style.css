@@ -218,6 +218,7 @@ margin-bottom: 3rem;
 
 .latest-news-section .card .card-title{
     margin-bottom: 0.6rem;
+    color: rgba(24, 25, 31, 1);
 }
 
 .card .section-description{
@@ -231,11 +232,121 @@ margin-bottom: 3rem;
     border: 1px solid var(--third-color);
 }
 
+/* client review section  */
+.clients-review-section .clients-review-title{
+    text-align: center;
+}
+
+.clients-review-section .clients-review-title span{
+    color: var(--third-color);
+}
+
+.clients-review-section .review-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 3.25rem;
+}
 
 
+.clients-review-section .review-card {
+    padding: 1.25rem;
+    border: 1px solid rgba(213, 229, 251, 1);
+    border-radius: 0.4rem;
+    text-align: center;
+}
 
 
+.clients-review-section .review-card img{
+    width: 65%;
+    margin-bottom: 1.25rem;
+}
 
+.clients-review-section .client-name{
+  margin: 1rem auto;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(35, 166, 240, 1);
+}
+
+.clients-review-section .clients-title{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.clients-review-section .review-stars{
+    margin: 1rem auto;
+}
+
+.clients-review-section .review-stars .fa-star{
+    color: rgba(231, 124, 64, 1);
+    
+}
+
+/* ask question section  */
+
+.ask-question-section{
+
+}
+
+.ask-question-section-title{
+    text-align: center;
+    margin-bottom: 6.25rem;
+}
+
+.ask-question-section-title span{
+    color: var(--third-color);
+}
+
+.ask-question-section .ask-question-section-body{
+        display: flex;
+        justify-content: space-between;
+}
+
+.ask-question-section .question-div{
+    padding: 1.5rem;
+    border: 1px solid rgba(213, 229, 251, 1);
+    border-radius: 0.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.ask-question-section .question{
+font-size: var(--medium-font-size);
+line-height: 1.6rem;
+color: rgba(56, 56, 56, 1);
+font-weight: 500;
+position: relative;
+}
+
+.ask-question-section .question-answer{
+    margin-top: 0.5rem;
+    color: var(--secondary-color);
+    font-size: var(--secondary-color);
+    line-height: 2.75rem;
+}
+
+
+.question-inner{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.question-inner i{
+    margin-left: 1.25rem;
+}
+
+.ask-question-section-img{
+    width: 40%;
+}
+
+.ask-question-section-img img{
+    width: 100%;
+}
+
+.ask-question-section-content{
+width: 50%;
+}
 
 
 
