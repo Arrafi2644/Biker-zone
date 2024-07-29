@@ -35,9 +35,15 @@ body{
 
 }
 
-.primary-title{
+.section-title{
     font-size: var(--primary-font-size);
     color: var(--primary-color);
+}
+
+.section-description{
+    font-size: var(--secondary-font-size);
+    color: var(--secondary-color);
+
 }
 
 /* Header start here  */
@@ -178,6 +184,54 @@ main>section{
 .feature-section .feature-3 img{
     filter: grayscale(1);
 }
+
+/* Latest News section  */
+
+.latest-news-section{
+    max-width: 1100px;
+    margin: auto;
+}
+.latest-news-section .latest-news-section-head{
+max-width: 60%;
+text-align: center;
+margin: auto;
+margin-bottom: 3rem;
+}
+
+.latest-news-section .card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+}
+
+.latest-news-section .card{
+    padding: 1.25rem;
+    border: 2px solid #E5E5E5 ;
+    border-radius: 5px;
+}
+
+.latest-news-section .card img{
+  width: 100%;
+  margin-bottom: 2.5rem;
+
+}
+
+.latest-news-section .card .card-title{
+    margin-bottom: 0.6rem;
+}
+
+.card .section-description{
+    margin-bottom: 2.5rem;
+}
+
+.card-2 .btn-primary,
+.card-3 .btn-primary {
+     background: none;
+    color: var(--third-color);
+    border: 1px solid var(--third-color);
+}
+
+
 
 
 
