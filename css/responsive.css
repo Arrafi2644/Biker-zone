@@ -1,0 +1,93 @@
+@media screen and (max-width:576px) {
+   
+:root{
+    --primary-font-size: 1.5rem;
+}
+
+    nav ul{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-img img{
+        width: 100%;
+    }
+
+    .feature-section-head {
+        max-width: 100%;
+    }
+
+    .feature-section .feature-section-body {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+
+    }
+
+    .latest-news-section .card-container {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+
+    .clients-review-section .clients-review-title span {
+        display: block;
+    }
+
+    .clients-review-section .review-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .ask-question-section-title {
+        margin-bottom: 3rem;
+    }
+
+    .ask-question-section .ask-question-section-body {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .ask-question-section-img {
+        width: 100%;
+    }
+
+    footer .footer-section {
+        margin-top: 3rem;
+        justify-content: space-between;
+    }
+
+    .ask-question-section-content {
+        width: 100%;
+    }
+
+    footer .footer-section {
+        flex-direction: column;
+    }
+
+    .footer-section .left-col {
+        width: 100%;
+    }
+
+    .footer-section .right-col{
+        width: 100%;
+    }
+
+    .footer-section .right-col img {
+        width: 25%;
+    }
+    
+}

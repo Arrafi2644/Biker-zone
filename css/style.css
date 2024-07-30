@@ -94,6 +94,15 @@ nav .btn-primary{
     margin-left: 4.25rem;
 }
 
+.menu-icon{
+    display: none;
+}
+
+.menu-icon i{
+    color: rgba(255, 255, 255, 1);
+    font-size: var(--secondary-font-size);
+}
+
 .banner{
     display: flex;
     align-items: center;
