@@ -134,6 +134,10 @@ nav .btn-primary{
     width: 45%;
 }
 
+.banner-img img{
+    width: 100%;
+}
+
 /* Main start here  */
 
 main>section{
@@ -409,6 +413,12 @@ footer .footer-section {
 
 .footer-section .right-col img{
     width:50%;
+}
+
+.footer-section .right-col .footer-img{
+    text-align: center;
+    margin-bottom: 0;
+flex-direction: column;
 }
 
 

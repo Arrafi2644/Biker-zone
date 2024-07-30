@@ -14,6 +14,7 @@
     .banner {
         display: flex;
         flex-direction: column;
+        padding: 3rem 0 3rem 0;
     }
 
     .banner-content {
@@ -29,14 +30,29 @@
         width: 100%;
     }
 
+    main>section {
+        margin: 2rem auto 0 auto;
+    }
+
+    .feature-section .feature-section-body {
+        margin: 2rem 0;
+    }
+
     .feature-section-head {
         max-width: 100%;
     }
 
     .feature-section .feature-section-body {
         grid-template-columns: 1fr;
-        gap: 3rem;
+        gap: 2rem;
+    }
 
+    .latest-news-section .latest-news-section-head {
+        margin-bottom: 2rem;
+    }
+
+    .clients-review-section .review-card-container {
+        margin-top: 2.25rem;
     }
 
     .latest-news-section .card-container {
@@ -66,7 +82,7 @@
     }
 
     footer .footer-section {
-        margin-top: 3rem;
+        margin-top: 2rem;
         justify-content: space-between;
     }
 
@@ -85,9 +101,11 @@
     .footer-section .right-col{
         width: 100%;
     }
+    .footer-section .right-col .footer-img{
+    flex-direction: row;
+    }
 
     .footer-section .right-col img {
         width: 25%;
     }
-    
 }
